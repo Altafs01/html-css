@@ -37,7 +37,7 @@ body{
 .navbar ul li a{
     text-decoration: none;
     color: black
-    text-transform: uppercase
+    /* text-transform: uppercase */
 }
 
 .navbar ul li::after{
@@ -59,11 +59,11 @@ body{
 .mainImg_footer{
         position: relative;
         text-align: center;
-        padding: 8px;
+        padding: 12px;
         top: 450px;
         background-color: white;
         opacity: 0.7;
-        margin-top: 300px;
+        margin-top: 320px;
         justify-content: space-between;
         align-items: center;
 }
@@ -71,11 +71,19 @@ body{
 .mainImg_footer button{
     margin-left: 700px;
     padding-right: 50px;
-    border-radius: 10px;
-    padding: 5px;
-    background-color: rgb(17, 148, 225);
-        
+    /* border-radius: 10px; */
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(20, 191, 234);
  }   
+
+ .mainImg_footer button a{
+    text-decoration: none;
+    color: black;
+ }
+
+ .mainImg_footer button:hover{
+    background-color: red;
+}
 
 h2{
     text-align: center;
@@ -229,3 +237,16 @@ h2{
     margin-left: 250px;
     margin-right: 250px;
 } 
+
+@media only screen and (max-width:600px){
+ .mainImg_footer{
+    background-color:blueviolet;
+}
+
+}
+
+@media only screen and (min-width:300px){
+    .mainImg_footer{
+        background-color:red;
+    }
+}
