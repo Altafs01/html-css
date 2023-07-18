@@ -60,10 +60,10 @@ body{
         position: relative;
         text-align: center;
         padding: 12px;
-        top: 450px;
+        /* top: 450px; */
         background-color: white;
         opacity: 0.7;
-        margin-top: 320px;
+        margin-top: 680px;
         justify-content: space-between;
         align-items: center;
 }
@@ -246,7 +246,28 @@ h2{
 }
 
 @media only screen and (min-width:300px){
-    .mainImg_footer{
-        background-color:red;
+    .mainImg_footer button{
+         background-color:red;
+    }
+}  
+
+ @media only screen and (max-width:600px){
+    .studio img{
+        background-color:aquamarine;
+
     }
 }
+
+@media only screen and (max-width:600px){
+    .studio img{
+        background-color:aquamarine;
+       
+
+    }
+}
+
+@media only screen and (min-width:300px){
+    .studio p{
+         background-color:red;
+    }
+} 
