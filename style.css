@@ -2,10 +2,9 @@ body{
     margin: 0px;
 }
 
-.bg-1{
+/* .bg-1{
     background-color: #e1f0ed;
-    /* margin-left: 50px; */
-}
+} */
 
 .banner{
     background-image: url(image/billboard.jpg);
@@ -15,7 +14,6 @@ body{
     height: 150vh;
     width: 100%;
     background-position: center;
-    /* position:absolute; */
 }
 
 .navbar{
@@ -37,7 +35,6 @@ body{
 .navbar ul li a{
     text-decoration: none;
     color: black
-    /* text-transform: uppercase */
 }
 
 .navbar ul li::after{
@@ -48,7 +45,6 @@ body{
     position: absolute;
     left: 0;
     bottom: -10px;
-    /* top: 25px; */
     transition: 0.5s;
 }
 
@@ -59,11 +55,10 @@ body{
 .mainImg_footer{
         position: relative;
         text-align: center;
-        padding: 12px;
-        /* top: 450px; */
+        padding: 15px;
         background-color: white;
         opacity: 0.7;
-        margin-top: 680px;
+        margin-top: 762px;
         justify-content: space-between;
         align-items: center;
 }
@@ -71,7 +66,6 @@ body{
 .mainImg_footer button{
     margin-left: 700px;
     padding-right: 50px;
-    /* border-radius: 10px; */
     padding: 5px 20px 5px 20px;
     background-color: rgb(20, 191, 234);
  }   
@@ -81,8 +75,8 @@ body{
     color: black;
  }
 
- .mainImg_footer button:hover{
-    background-color: red;
+ .mainImg_footer button{
+    background-color: rgb(20, 191, 234);;
 }
 
 h2{
@@ -95,7 +89,6 @@ h2{
 
 .studio{
     display: flex;
-    /* display: inline; */
     gap: 65px;
     margin: 20px 100px 20px 100px;
     text-align: center;  
@@ -119,6 +112,12 @@ h2{
     width: 250px;
 }
 
+/* .client-head{
+    background-color: #f8f9fa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+} */
+
 .client{
     display: flex;
     margin-left: 200px;
@@ -129,6 +128,7 @@ h2{
     padding: 0px 60px 0px 60px;
 }
 
+
 .client img {
     border-radius: 50%;
 }
@@ -137,8 +137,7 @@ h2{
 
 .client-logo{
     position: relative;
-    /* margin: 50px; */
-    left: 150px;
+    /* left: 150px; */
     top: 40px;
 }
 
@@ -168,16 +167,13 @@ h2{
 }
 
 .about button:hover{
-    background-color: red;
+    background-color: rgb(22, 180, 243);
 }
 
 
 .flex-container1{
     display: flex;
-    /* position: relative; */
-    /* gap: 50px; */
     margin-left: 250px;
-    /* text-align: center; */
     gap: 50px;
     padding: 0px 20px 0px 20px;
     font-size: small;
@@ -197,7 +193,6 @@ h2{
 }
 
 .com h2{
-    /* text-align: right; */
     padding: 0px 40px 0px 40px;
 }
 
@@ -233,11 +228,11 @@ h2{
 
 .foot{
     text-align: center;
-    /* background-color: rgb(157, 146, 146); */
     margin-left: 250px;
     margin-right: 250px;
-} 
+}
 
+/* 
 @media only screen and (max-width:600px){
  .mainImg_footer{
     background-color:blueviolet;
@@ -270,4 +265,4 @@ h2{
     .studio p{
          background-color:red;
     }
-} 
+}  */
